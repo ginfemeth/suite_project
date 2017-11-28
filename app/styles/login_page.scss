@@ -1,0 +1,78 @@
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+body {
+		background-image: url(../images/login-bg.jpg);
+		background-repeat:no-repeat;
+		background-size: 100% 100%;
+}
+
+html {
+    height: 100%;
+}
+
+input, textarea{
+    background-color:#f6fafd !important;
+    color: #FFF;
+}
+
+.panel{
+	margin-top: 50%;
+	width: 320px;
+	height:370px;
+}
+
+panel-body{
+	border-top:5px;
+	border-color:red;
+}
+.panel-heading{
+	padding-top: 20px;
+	text-align: center;
+	color: #373f54;
+	background-color:#fff !important;
+
+  	box-shadow: 0 6px 12px #efefef; 
+
+	height:70px;
+	h3{
+		font-weight: bold;
+		font-size: 24px;
+	}
+}
+
+.footer p{
+	text-align: center;
+	color: #4055b2;
+	font-size: 10px;
+	margin-top:30px;
+}
+
+.btn-sample {
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #6414CC;
+	*background-color: #6414CC;
+	background-image: -moz-linear-gradient(top, #B35CE6, #6414CC);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#B35CE6), to(#6414CC));
+	background-image: -webkit-linear-gradient(top, #B35CE6, #6414CC);
+	background-image: -o-linear-gradient(top, #B35CE6, #6414CC);
+	background-image: linear-gradient(to bottom, #B35CE6, #6414CC);
+	background-repeat: repeat-x;
+	border-color: #6414CC;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B35CE6', endColorstr='#6414CC', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.btn-sample.disabled,
+.btn-sample[disabled] {
+	color: #FFFFFF;
+	background-color: #6414CC;
+	*background-color: #003bb3;
+}
