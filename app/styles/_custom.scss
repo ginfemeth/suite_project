@@ -1,16 +1,183 @@
+html {
+    height: 100%;
+}
 
-.dashbord-head{
-  height: 70px;
-  background-color: #f0f0f0;
+.navbar{
+  height: 65px;
+  background-color: $navbar-default-bg !important;
+  box-shadow: 0 2px 12px #dee8ea; 
+  margin-bottom: 0;
+  &-brand{
+  	padding: 10px 0 0 15px !important;
+  }
   .logo{
-    width: 180px;
-    height: 70px;
-    
+    width: 140px;
+    height: 52px; 
   }
 }
 
-.dashbord-head{
-	box-shadow: 0 6px 12px #efefef; 
+.nav > li > a > img {
+    width: 18px;
+    height: 20px;
+    color:white;
+}
+
+.nav > li > a {
+    padding: 20px 10px;
 }
 
 
+.vr{
+
+border: 4px solid #edf2f3; 
+border-left: 0;
+border-top: 0;
+border-bottom: 0;
+height:70px;
+	
+}
+
+.vr_nav{
+height:800px;
+border: 4px solid #dee8ea; 
+border-left: 0;
+border-top: 0;
+border-bottom: 0;
+padding-top: 30px;
+padding-left: 0;
+padding-right: 0;
+  
+}
+
+.vr_foot{
+border: 4px solid #edf2f3; 
+border-left: 0;
+border-top: 0;
+border-right: 0;
+padding-top: 30px;
+height: 500px;  
+padding-left: 0;
+padding-right: 0;
+
+}
+
+.navbar-form {
+    margin: 0 0 0 15px;
+    margin-top: 15px;
+}
+
+.list-group-item{
+border: none;
+	.glyphicon{
+		padding-right: 15px;
+	}
+    .active, .active:focus, .active:hover{
+	background-color: #4055b2;
+}
+}
+
+.panel{
+border: none;
+	&-heading {
+    padding: 20px 15px;
+    background-color: white !important;
+    border: none;
+}
+	&-title{
+	color: #337ab7 !important;
+    font-weight: bold !important;
+}
+  &-body{
+    background-color:#fafbfd;
+  }
+}
+
+.modal-title {
+    margin: 12px  0 0 0;
+    line-height: 1.428571429;
+    text-align: center;
+    display:table;
+vertical-align:middle;
+text-align:center;
+}
+
+
+.modal-header{
+    padding: 0 15px !important;
+    border: 0;
+
+}
+
+
+.modal-body{
+    padding: 0 15px !important;
+
+}
+
+.modal-body h5 {
+  padding:1em 0;
+  overflow:hidden;
+  color:#337ab7;
+  font-weight:bold;
+&:after {
+  content:'';
+  width:100%;
+  border-bottom: 1px lightgray solid;
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:-100%;
+}
+
+
+  }
+
+  .modal-body h6 {
+    font-weight:bold;
+  }
+
+  label {
+  font-weight:normal;}
+
+  #addPage input, textarea{
+    background-color:#f6fafd;
+    color: #FFF;
+}
+
+.whitebg{
+    background-color:#fff !important;
+}
+
+
+
+.table-bordered {
+    border: none;
+}
+
+
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
+    border: none;
+}
+.table th{
+    text-align:center;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #f4f8fb;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th {
+   background-color: #fff;
+}
+
+#addPage .col-md-2 {
+    width: 20%;
+}
+
+form h4 span{
+  color: #4055b2;
+}
+
+.btn-primary {
+    background-color: #4055b2;
+}
